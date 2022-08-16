@@ -3,5 +3,5 @@
 </div>
 <div>
   <h3>ℹ️ Sobre este repositório</h3>
-  <p>Apenas colocando atividade e mini projetos feitos em TypeScript.</p>
+  <p>Repositório com atividades e mini projetos feitos com TypeScript.</p>
 </div>
