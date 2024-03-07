@@ -9,10 +9,10 @@ console.log(smallerThan10(ages));
 const mixed = [10, "Carlos", 26, 52, 30, 42, "Paulo", "John", 64, 20, 10];
 
 const filterNumbers = (data: (number | string)[]) =>
-  data.filter((item) => typeof item === "number");
+    data.filter((item) => typeof item === "number");
 
 const filterText = (data: Array<number | string>) =>
-  data.filter((item) => typeof item === "string");
+    data.filter((item) => typeof item === "string");
 
 console.log(filterNumbers(mixed));
 console.log(filterText(mixed));

@@ -1,7 +1,7 @@
 {
-  "compilerOptions": {
-    // Target indicate what type of JavaScript (version)
-    "target": "ESNext",
-    "strict": true
-  }
+    "compilerOptions": {
+        // Target indicate what type of JavaScript (version)
+        "target": "ESNext",
+        "strict": true
+    }
 }

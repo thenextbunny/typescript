@@ -1,8 +1,0 @@
-npm install -g typescript
-tsc --init
-
-# manual compilation
-tsc <file>
-
-# automatic compilation
-tsc -w
