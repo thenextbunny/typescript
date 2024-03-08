@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true, // Compile on save using tsc -w
+    // Compile options
+    "compilerOptions": {
+        "outDir": "dist", // Output directory
+        "target": "ESNext", // JavaScript version
+        "module": "ESNext", // Module system, it's important when using import/export and Node.js
+        "lib": ["ESNext", "DOM"], // Libraries to include
+        "sourceMap": true, // Generate source maps for development purposes
+        "noEmit": false, // Don't emit files, only check for errors
+        "allowJs": false, // Allow JavaScript files to be compiled
+        "removeComments": true, // Remove comments from the output
+        "strict": true,
+        /* strict enable the following options:
+        "noImplicitAny": true, // Don't allow any type to be inferred as any
+        "strictNullChecks": true, // Don't allow null or undefined to be assigned to any type
+        "allowStrict": true, // Allow 'use strict' in JavaScript files
+        "noImplicitThis": true, // Don't allow this to be inferred as any
+        */
+        "noImplicitReturns": true, // Don't allow functions to have a missing return statement
+        "noUnusedLocals": true, // Don't allow unused local variables
+        "noUnusedParameters": true, // Don't allow unused parameters
+        "declaration": true // Generate declaration files (.d.ts)
+    },
+    "include": ["src"], // Files to include in the compilation
+    "exclude": ["node_modules"] // Files to exclude from the compilation
+}

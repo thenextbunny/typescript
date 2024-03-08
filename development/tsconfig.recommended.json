@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "outDir": "dist", // Output directory
         "target": "ESNext", // JavaScript version
         "sourceMap": true, // Generate source maps for development purposes
         "allowJs": true, // Allow JavaScript files to be compiled
@@ -8,5 +9,7 @@
         "noImplicitReturns": true, // Don't allow functions to have a missing return statement
         "noUnusedLocals": true, // Don't allow unused local variables
         "noUnusedParameters": true // Don't allow unused parameters
-    }
+    },
+    "include": ["src"], // Files to include in the compilation
+    "exclude": ["node_modules"] // Files to exclude from the compilation
 }
